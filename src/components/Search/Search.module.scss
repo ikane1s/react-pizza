@@ -1,0 +1,75 @@
+.root {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 12px 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-right: 200px;
+  width: 420px;
+
+  .input {
+    border: none;
+    font-size: 16px;
+    margin-left: 10px;
+    width: 400px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+  }
+
+  .clear {
+    opacity: 0.5;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  .root {
+    margin-right: 170px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .root {
+    margin-right: 130px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .root {
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .root {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .root {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1025px) {
+  .root {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .root {
+    width: 300px;
+  }
+}
